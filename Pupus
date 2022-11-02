@@ -1,0 +1,16 @@
+x = int(input())
+if(x > 1 and x < 365):
+    if(x % 7 == 1):
+        print(6)
+    elif(x % 7 == 2):
+        print(7)
+    elif(x % 7 == 3):
+        print(1)
+    elif(x % 7 == 4):
+        print(2)
+    elif(x % 7 == 5):
+        print(3)
+    elif(x % 7 == 6):
+        print(4)
+    elif(x % 7 == 0):
+        print(5)
